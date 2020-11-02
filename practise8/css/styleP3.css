@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 сент. 2020 г., 14:15:48
+    Author     : пк
+*/
+* {
+    box-sizing: border-box;
+    font-family: arial;
+    margin:0;
+}
+body{
+    background-color:aliceblue;
+}
+h1, h2 ,h3 , h4{
+    color: black;
+    font-family: Arial Black;
+    font-weight: bold;    
+}
+
+h1 > span {
+    color: white;
+    font-family: Arial Black;
+    font-weight: bold; 
+}
+h2 > span {
+    color: white;
+    font-family: Arial Black;
+    font-weight: bold; 
+}
+
+h2 {
+    padding: 20px 0 20px 0;
+}
+
+
+
+
+.header1 {
+    background-color: #333F50;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+.block1 {
+    margin: 40px 1vw 40px 5vw;
+}
+
+img {
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+    padding: 2px;
+}
+
+.block2 {
+    margin: 40px 0px 10px 5vw;
+    padding: 10px;
+    float: left;
+    border-top: 2px solid #333F50;
+
+}
+
+.block3 {
+    margin: 40px 1vw 10px 0vw;
+    padding: 10px;
+    float: left;
+    border-top: 2px solid #333F50;
+    border-left: 2px solid #333F50;
+}
+
+.block4 {
+    margin: 40px 1vw 40px 5vw;
+}
+
+
+.textalignright1 {
+    padding-top: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
+h3 {line-height: 1.5;}
+
+.foto1 {
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.col-4 {width: 33.33%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+
+.subblock1 {
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
